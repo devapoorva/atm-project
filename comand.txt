@@ -1,0 +1,16 @@
+pip install virtualenv
+virtualenv env 
+
+# unrestricted
+Set-ExecutionPolicy unrestricted
+
+# activate virtual environment (Windows)
+.\env\Scripts\activate.ps1
+# Linux
+source env/Scripts/activate
+
+# deactivate virtual env
+deactivate
+
+# flask package 
+pip install flask
